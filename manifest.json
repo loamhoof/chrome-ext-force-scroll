@@ -1,0 +1,14 @@
+{
+    "name": "Force scroll",
+    "version": "0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["main.js"]
+    },
+    "permissions": ["activeTab"],
+    "commands": {
+        "forceScroll": {
+            "description": "Force scroll on hovered element"
+        }
+    }
+}
